@@ -111,3 +111,11 @@ p{
     background-position: left;
     background-size: cover;
 }
+@media ( max-width : 500px){
+   #main{
+    flex-direction: column;
+   }
+   #main #left{
+    width: 100%;
+   }
+}
